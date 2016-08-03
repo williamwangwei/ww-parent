@@ -17,6 +17,7 @@
 		<jackson.version>2.4.2</jackson.version>
 		<druid.version>1.0.9</druid.version>
 		<poi.version>3.8</poi.version>
+		<beanutils.version>1.8.3</beanutils.version>
 	</properties>
 	
 	
@@ -104,6 +105,12 @@
 				<groupId>org.apache.poi</groupId>
 				<artifactId>poi-ooxml</artifactId>
 				<version>${poi.version}</version>
+			</dependency>
+			
+			<dependency>
+			  <groupId>commons-beanutils</groupId>
+			  <artifactId>commons-beanutils</artifactId>
+			  <version>${beanutils.version}</version>
 			</dependency>
   	</dependencies>
   </dependencyManagement>
